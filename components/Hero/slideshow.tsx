@@ -46,7 +46,7 @@ const Slideshow = () => {
                         <h1 className="absolute mb-60 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1>
                         {/* <h1 className="absolute md:top-60 top-24 inset-x-1/4 text-center z-10 md:text-6xl text-4xl bold text-white mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1> */}
                         {/* <p className="absolute md:top-80 top-40 inset-x-1/4 text-center z-10 md:text-2xl text-xl bold text-white dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">"India's Most Trusted Betting Id Provider"</p> */}
-                        <p className="absolute  md:top-80 top-40 text-white mb-250 text-base !leading-relaxed text-body-color sm:text-lg md:text-4xl">"India's Most Trusted Betting Id Provider"</p>
+                        <p className="absolute  md:top-80 top-40 text-white mb-250 text-base !leading-relaxed text-body-color sm:text-lg md:text-4xl">India's Most Trusted Betting Id Provider</p>
                         <Link
                         href="https://github.com/NextJSTemplates/startup-nextjs"
                         className="absolute inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
