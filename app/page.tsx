@@ -9,11 +9,13 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Betkaroo - Online Betting Id Proivder",
+  description: "Betting ID",
+  keywords: "Betting id, ipl betting id, cricket betting id, sport betting, online casino"
   // other metadata
 };
 

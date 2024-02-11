@@ -1,14 +1,23 @@
+'use client' 
 import Link from "next/link";
+
+
+import 'react-slideshow-image/dist/styles.css'
+import Slideshow from "./slideshow";
+
 
 const Hero = () => {
   return (
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[120px]"
       >
+        <Slideshow/>  
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
+          
+  
+          {/* <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
                 className="wow fadeInUp mx-auto max-w-[800px] text-center"
@@ -39,7 +48,7 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
@@ -179,7 +188,7 @@ const Hero = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
             height="201"
@@ -281,7 +290,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

@@ -1,35 +1,153 @@
+'use client'
 import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
+// import AutoPlay from "./swiper_div";
+import Slider from "react-slick";
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+// const Slide = ({ title }: SlideProps) => {
+//   return (
+//     <HStack
+//       w="１００％"
+//       h="200px"
+//       bg="cyan.400"
+//       border="cyan.700"
+//       alignContent="center"
+//       justifyContent="center"
+//       mx="4"
+//     >
+//       <Text color="white" fontWeight="bold">
+//         {title}
+//       </Text>
+//     </HStack>
+//   );
+// };
 const Brands = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
+  
   return (
     <section className="pt-16">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div
+            {/* <div
               className="wow fadeInUp bg-gray-light dark:bg-gray-dark flex flex-wrap items-center justify-center rounded-sm px-8 py-8 sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]"
               data-wow-delay=".1s"
-            >
-              {brandsData.map((brand) => (
+            > */}
+              <Slider {...settings}>
+              <a
+                // href=
+                target="_blank"
+                rel="nofollow noreferrer"
+                className="relative h-40 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+              >
+                <Image src="/images/brands/apna.webp" alt="image" fill sizes="40"/>
+              </a>
+              <a
+                // href=
+                target="_blank"
+                rel="nofollow noreferrer"
+                className="relative h-40 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+              >
+                <Image src="/images/brands/dimond.webp" alt="image" fill sizes="40"/>
+              </a>
+              <a
+                // href=
+                target="_blank"
+                rel="nofollow noreferrer"
+                className="relative h-40 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+              >
+                <Image src="/images/brands/safron.webp" alt="image" fill sizes="40"/>
+              </a>
+              <a
+                // href=
+                target="_blank"
+                rel="nofollow noreferrer"
+                className="relative h-40 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+              >
+                <Image src="/images/brands/skyexch.webp" alt="image" fill sizes="40"/>
+              </a>
+              <a
+                // href=
+                target="_blank"
+                rel="nofollow noreferrer"
+                className="relative h-40 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+              >
+                <Image src="/images/brands/world777.webp" alt="image" fill sizes="40"/>
+              </a>
+              <a
+                // href=
+                target="_blank"
+                rel="nofollow noreferrer"
+                className="relative h-40 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+              >
+                <Image src="/images/brands/tiger.webp" alt="image" fill sizes="40"/>
+              </a>
+                      
+          {/* <div >
+            <img width={100} height={50} src="/images/brand/logo.png" />
+          </div>
+          <div >
+            <img width={100} height={50} src="/images/brand/logo.png" />
+          </div>
+          <div>
+            <img width={100} height={50} src="/images/brand/logo.png" />
+          </div>
+          <div >
+            <img width={100} height={50} src="/images/brand/logo.png" />
+          </div>
+          <div>
+            <img width={100} height={50} src="/images/brand/logo.png" />
+          </div> */}
+          {/* <div className="container">
+            <img src="http://recruiters-zone.com/static/media/BRS_Ventures.0722bfe22318cd3f3f5d.jpg" />
+          </div> */}
+        </Slider>
+              
+              {/* {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };
 
-export default Brands;
+export default  Brands;
 
 const SingleBrand = ({ brand }: { brand: Brand }) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
   const { href, image, name } = brand;
+  
 
   return (
+
     <div className="mx-3 flex w-full max-w-[160px] items-center justify-center py-[15px] sm:mx-4 lg:max-w-[130px] xl:mx-6 xl:max-w-[150px] 2xl:mx-8 2xl:max-w-[160px]">
+      
+      {/* <AutoPlay/> */}
+      
       <a
         href={href}
         target="_blank"
