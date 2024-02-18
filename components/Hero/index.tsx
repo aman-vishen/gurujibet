@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import 'react-slideshow-image/dist/styles.css'
 import Slideshow from "./slideshow";
+// import ResponsiveCarousel from "./slide_new"
 
 
 const Hero = () => {
@@ -14,6 +15,7 @@ const Hero = () => {
         className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[120px]"
       >
         <Slideshow/>  
+        {/* <ResponsiveCarousel/> */}
         {/* <div className="container"> */}
           
   

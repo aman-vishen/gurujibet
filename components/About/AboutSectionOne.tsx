@@ -24,8 +24,9 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Min Transaction for
+                Cricket Betting ID"
+                paragraph="TWe have lots of partner that our clients can choose from like Diamond Exchange, Lotus Exchange, Sky Exchange, Saffron Exchange, World 777 Exchange, Tiger Exchange. All of our casino id providers and cricket id providers are fully verified to make sure that you money and personal information is completely safe."
                 mb="44px"
               />
 
@@ -35,15 +36,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Zero to No Interaction required on Whatsapp." />
+                    <List text="Your Privacy and Identity is Secure." />
+                    <List text="All Websites Just One Click Away." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Get A New ID Within Ten Seconds." />
+                    <List text="All Your Transaction History in One Place." />
+                    <List text="Reduce Number of Bank Transaction Use E-Wallet. " />
                   </div>
                 </div>
               </div>

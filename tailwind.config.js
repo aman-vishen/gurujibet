@@ -7,6 +7,7 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+
     container: {
       center: true,
       padding: "1rem",
@@ -47,6 +48,7 @@ module.exports = {
         stroke: "#E3E8EF",
         "stroke-dark": "#353943",
         "bg-color-dark": "#171C28",
+        'whatsapp': '#25D366',
       },
 
       boxShadow: {
