@@ -1,3 +1,4 @@
+import Link from "next/link"
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
+  
   return (
     <>
       <ScrollUp />

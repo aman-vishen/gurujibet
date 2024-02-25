@@ -49,6 +49,13 @@ module.exports = {
         "stroke-dark": "#353943",
         "bg-color-dark": "#171C28",
         'whatsapp': '#25D366',
+
+        'apna':'#03A0A6',
+        'tiger':'#0B0C2A',
+        'sky':'#FFC522',
+        'ice':'#23292E',
+        'saf':'#B76D3A',
+        // 'apna':'',
       },
 
       boxShadow: {
