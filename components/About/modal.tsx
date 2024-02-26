@@ -41,7 +41,7 @@ const TestModals = () => {
       {/* <div className="container m-auto p-4"> */}
   <div className="flex justify-center  mx-5 bg-apna rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center  shadow-lg m-2">
-      <Image className="m-4" src={Trophy} width={205} height={200} objectFit="contain" alt=""/>
+      <Image className="m-4" src={Trophy} width={205} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start ">
         <h5 className="text-gray-900 text-xl font-medium mb-5">Apna Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -117,7 +117,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-tiger rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center   shadow-lg m-2">
-      <Image className="m-4" src={Gift} width={205} height={200} objectFit="contain" alt=""/>
+      <Image className="m-4" src={Gift} width={205} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-5">Tiger Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -193,7 +193,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 rounded-lg bg-sky lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={sky} width={200} height={200} objectFit="contain" alt=""/>
+      <Image className="m-4" src={sky} width={200} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-gray-900 text-xl font-medium mb-4">Sky Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -270,7 +270,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-saf  rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt=""/>
+      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-8 flex flex-col justify-start">
         <h5 className="text-gray-900 text-xl font-medium mb-4">Saffron Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -347,7 +347,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-ice rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={ice} width={200} height={200} objectFit="contain" alt=""/>
+      <Image className="m-4" src={ice} width={200} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-4">Ice-Book 777</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}

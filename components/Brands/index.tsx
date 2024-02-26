@@ -72,7 +72,7 @@ const Brands = () => {
                 rel="nofollow noreferrer"
                 className="relative h-40 w-full   dark:opacity-60 dark:hover:opacity-100"
               >
-                <Image src="/images/brands/apna.webp" alt="image" fill sizes="40"/>
+                <Image src="/images/brands/apna.webp" alt="online betting id" fill sizes="40"/>
               </a>
               <a
                 // href=
@@ -80,7 +80,7 @@ const Brands = () => {
                 rel="nofollow noreferrer"
                 className="relative h-40 w-full dark:opacity-60 dark:hover:opacity-100"
               >
-                <Image src="/images/brands/dimond.webp" alt="image" fill sizes="40"/>
+                <Image src="/images/brands/dimond.webp" alt="online betting id" fill sizes="40"/>
               </a>
               <a
                 // href=
@@ -88,7 +88,7 @@ const Brands = () => {
                 rel="nofollow noreferrer"
                 className="relative h-40 w-full   dark:opacity-60 dark:hover:opacity-100"
               >
-                <Image src="/images/brands/safron.webp" alt="image" fill sizes="40"/>
+                <Image src="/images/brands/safron.webp" alt="online betting id" fill sizes="40"/>
               </a>
               <a
                 // href=
@@ -96,7 +96,7 @@ const Brands = () => {
                 rel="nofollow noreferrer"
                 className="relative h-40 w-full   dark:opacity-60 dark:hover:opacity-100"
               >
-                <Image src="/images/brands/skyexch.webp" alt="image" fill sizes="40"/>
+                <Image src="/images/brands/skyexch.webp" alt="online betting id" fill sizes="40"/>
               </a>
               <a
                 // href=
@@ -104,7 +104,7 @@ const Brands = () => {
                 rel="nofollow noreferrer"
                 className="relative h-40 w-full   dark:opacity-60 dark:hover:opacity-100"
               >
-                <Image src="/images/brands/world777.webp" alt="image" fill sizes="40"/>
+                <Image src="/images/brands/world777.webp" alt="online betting id" fill sizes="40"/>
               </a>
               <a
                 // href=
@@ -112,7 +112,7 @@ const Brands = () => {
                 rel="nofollow noreferrer"
                 className="relative h-40 w-full   dark:opacity-60 dark:hover:opacity-100"
               >
-                <Image src="/images/brands/tiger.webp" alt="image" fill sizes="40"/>
+                <Image src="/images/brands/tiger.webp" alt="online betting id" fill sizes="40"/>
               </a>
                       
           {/* <div >

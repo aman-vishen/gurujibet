@@ -57,13 +57,13 @@ const AboutSectionOne = () => {
               >
                 <Image
                   src="/images/about/transcation.png"
-                  alt="about-image"
+                  alt="online betting id"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
                   src="/images/about/transcation.png"
-                  alt="about-image"
+                  alt="online betting id"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"
                 />

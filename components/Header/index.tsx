@@ -58,14 +58,14 @@ const Header = () => {
               >
                 <Image
                   src="/images/logo/logo.png"
-                  alt="logo"
+                  alt="online betting id"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
                 <Image
                   src="/images/logo/logo.png"
-                  alt="logo"
+                  alt="online betting id"
                   width={140}
                   height={30}
                   className="hidden w-full dark:block"

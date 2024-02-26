@@ -11,7 +11,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         {/* <div className="mb-10 flex h-[170px] w-[170px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary"> */}
         <div className="mb-6 flex h-[200px] w-[250px] items-center justify-center">
           {/* {icon} */}
-          <Image src={image} alt="" width={250} height={200} style={{position:"absolute"}} />
+          <Image src={image} alt="online betting id" width={250} height={200} style={{position:"absolute"}} />
         </div>
         <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
           {title}

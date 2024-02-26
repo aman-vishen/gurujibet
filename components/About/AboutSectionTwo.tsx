@@ -32,13 +32,13 @@ const AboutSectionTwo = () => {
             >
               <Image
                 src="/images/about/steps.png"
-                alt="about image"
+                alt="online betting id"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
                 src="/images/about/steps.png"
-                alt="about image"
+                alt="online betting id"
                 fill
                 className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
               />

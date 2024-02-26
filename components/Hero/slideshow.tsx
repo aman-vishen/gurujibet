@@ -42,7 +42,7 @@ const Slideshow = () => {
 						<img
 							className="w-screen object-cover w-full h-full bg-[linear-gradient(0deg,rgba(0,0,0,0.75)_6.82%,rgba(0,0,0,0.00)_81.44%)]"
 							src={each}
-							alt="Betkheloo"
+							alt="online betting id"
 						
 					
 						/>
