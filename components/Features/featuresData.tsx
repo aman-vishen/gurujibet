@@ -79,7 +79,7 @@ const featuresData: Feature[] = [
     image: "/images/bet/6play.png",
     title: "6 Play Poker ID",
     paragraph:
-      "Six-plus hold 'em (also known as short-deck hold 'em and Manila) is a community card poker game variant of Texas hold 'em, where the 2 through 5 cards are removed from the deck. Each player is dealt two cards face down and seeks to make the best five card poker hand from any combination of the seven cards (five community cards and their own two hole cards)",
+      "Six-plus hold 'em (also known as short-deck hold 'em and Manila) is a community card poker game variant of Texas hold 'em, where the 2 through 5 cards are removed from the deck. Each player is dealt two cards face down and seeks to make the best five card poker.",
   },
   {
     id: 1,
@@ -95,7 +95,7 @@ const featuresData: Feature[] = [
     image: "/images/bet/lucky7.png",
     title: "Lucky 7 Betting ID",
     paragraph:
-      "Lucky Seven is played with seven numbered coasters (per player) on a flat surface. The goal of the game is to turn all seven coasters number side up, to accrue the most points. With more than one player, the coasters are shuffled, players each choose a coaster and the player with the highest number starts",
+      "Lucky Seven is played with seven numbered coasters (per player) on a flat surface. The goal of the game is to turn all seven coasters number side up, to accrue the most points. With more than one player, the coasters are shuffled, players each choose a coaster.",
   },
 ];
 export default featuresData;

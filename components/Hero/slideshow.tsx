@@ -36,24 +36,29 @@ const Slideshow = () => {
 		<div className="w-full h-screen">
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
-					<div key={index} className="flex justify-center md:items-center items-start w-screen h-screen relative">
+					<div key={index} className="flex   justify-center md:items-center items-start w-screen h-screen relative">
+						<div className="bottom-0 left-0 right-0 top-0 h-full w-full  bg-fixed bg-black opacity-90">
 						<img
 							className="w-screen object-cover w-full h-full bg-[linear-gradient(0deg,rgba(0,0,0,0.75)_6.82%,rgba(0,0,0,0.00)_81.44%)]"
 							src={each}
                            
 						/>
-						<div className="flex  flex-col text-overlay absolute  w-screen h-screen justify-center items-center ">
-						<h1 className=" bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-100	 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1>
+						 </div>
+						<div className="flex  flex-col text-overlay absolute  w-screen h-screen justify-center items-center  "
+						>
+							
+						<h1 className="opacity-100 bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-100	 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1>
                         {/* <h1 className="absolute md:top-60 top-24 inset-x-1/4 text-center z-10 md:text-6xl text-4xl bold text-white mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1> */}
                         {/* <p className="absolute md:top-80 top-40 inset-x-1/4 text-center z-10 md:text-2xl text-xl bold text-white dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">"India's Most Trusted Betting Id Provider"</p> */}
-                        <p className="  my-2 text-white dark:text-white text-3xl font-bold  bg-gradient-to-r from-Slate-900 to-amber-500  text-base !leading-tight text-body-color sm:text-lg md:text-4xl">India's Most Trusted Betting Id Provider</p>
+                        <p className="bg-clip-padding p-6 bg-zinc-900 rounded-xl bg-opacity-50 border-1 border-violet-300   my-2 text-white dark:text-white text-3xl font-bold  bg-gradient-to-r from-Slate-900 to-amber-500  text-base !leading-tight text-body-color sm:text-lg md:text-4xl">India's Most Trusted Betting Id Provider</p>
                         <Link
                         href=""
-                        className="  my-2    inline-block rounded-sm bg-whatsapp  text-white  px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
+                        className="border-solid border-2 border-white-600 my-2  rounded-xl  inline-block rounded-sm bg-whatsapp  text-white  px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
 						// className="absolute inline-block rounded-sm bg-black md:top-200 top-800 text-white mb-200 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
 				  >
                     WhatsApp
                   </Link>
+				 
 						</div>
                         
                        

@@ -121,14 +121,11 @@ const BlogSidebarPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
+                  Unlock Your Winning Potential: Explore the Ultimate Betting Experience with Bet Khelo! Dive into the world of online betting with Bet Khelo, your premier destination for betting IDs and thrilling gaming opportunities. From ICC Cricket betting to a wide array of casino classics, Bet Khelo offers endless excitement for every gambler. Join us as we uncover the secrets to success, providing expert tips and strategies to help you win big. Whether you're a seasoned bettor or a newcomer to the scene, Bet Khelo is your gateway to excitement and victory. Start winning today
+                    {/* <strong className="text-primary dark:text-white">
                       {" "}
                       malesuada{" "}
-                    </strong>
+                    </strong> */}
                     proin libero nunc consequat interdum varius. Quam
                     pellentesque nec nam aliquam sem et tortor consequat.
                     Pellentesque adipiscing commodo elit at imperdiet.

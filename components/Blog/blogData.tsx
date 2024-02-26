@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "BetKheloo: India's Most Trusted Betting ID Provider",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "With BetKheloo, you can bet with confidence, knowing that you're in good hands. Join us today and embark on a thrilling journey filled with excitement and endless opportunities to win big!",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Palak Batra",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Content Writer",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["Betting ID"],
+    publishDate: "2024",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "BetKheloo: India's Most Trusted Betting ID Provider",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "With BetKheloo, you can bet with confidence, knowing that you're in good hands. Join us today and embark on a thrilling journey filled with excitement and endless opportunities to win big!",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Parth",
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["Betting ID"],
+    publishDate: "2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "BetKheloo: India's Most Trusted Betting ID Provider",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "With BetKheloo, you can bet with confidence, knowing that you're in good hands. Join us today and embark on a thrilling journey filled with excitement and endless opportunities to win big!",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Ankur",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Content Writer",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["Betting ID"],
+    publishDate: "2024",
   },
 ];
 export default blogData;

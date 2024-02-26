@@ -37,13 +37,13 @@ const TestModals = () => {
       
 
 
-    <div className="flex justify-center items-center mt-40 ">
+    <div className="flex flex-wrap justify-center items-center md:flex-row  mt-40 ">
       {/* <div className="container m-auto p-4"> */}
-  <div className="flex justify-center mx-5 bg-apna">
-    <div className="flex flerowx- md:flex-col md:max-w-xl rounded-lg  shadow-lg m-2">
-      <Image src={Trophy} width={200} height={200} objectFit="contain" alt=""/>
+  <div className="flex justify-center  mx-5 bg-apna rounded-lg lg:w-1/5">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center  shadow-lg m-2">
+      <Image className="m-4" src={Trophy} width={200} height={200} objectFit="contain" alt=""/>
       <div className="px-6 py-10 flex flex-col justify-start ">
-        <h5 className="text-gray-900 text-xl font-medium mb-2">Apna Exchange</h5>
+        <h5 className="text-gray-900 text-xl font-medium mb-4">Apna Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
         
@@ -55,7 +55,7 @@ const TestModals = () => {
         >
           Demo ID <AiFillFire className="text-xl" />
         </button> */}
-        <Credenza>
+        <Credenza >
             <CredenzaTrigger asChild>
               <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
       font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
@@ -63,7 +63,7 @@ const TestModals = () => {
             </CredenzaTrigger>
             <CredenzaContent>
               <CredenzaHeader>
-                <CredenzaTitle>Apna ExChange</CredenzaTitle>
+                <CredenzaTitle>Apna Exchange</CredenzaTitle>
                 <CredenzaDescription>
                   Demo Id For Apna Exchange
                 </CredenzaDescription>
@@ -84,9 +84,6 @@ const TestModals = () => {
                
                 </p>
                 <p>
-                  {/* This component is built using shadcn/ui&apos;s dialog and
-                  drawer component, which is built on top of Vaul. */}
-                  
                   <span className="font-semibold">PassWord:</span> Betkheloo{"  "}
                   <button onClick={() => copyText("Betkheloo")}><Image
                   width={20}
@@ -97,41 +94,87 @@ const TestModals = () => {
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               /></button>
                 </p>
-                {/* <p>
-                  It shows a{" "}
-                  <Link
-                    href="https://ui.shadcn.com/docs/components/dialog"
-                    target="_blank"
-                    className="underline"
-                  >
-                    dialog modal
-                  </Link>{" "}
-                  for desktop view and a{" "}
-                  <Link
-                    href="https://vaul.emilkowal.ski/"
-                    target="_blank"
-                    className="underline"
-                  >
-                    bottom drawer
-                  </Link>{" "}
-                  for mobile view.
-                </p>
-                <p>
-                  The documentation for installation and usage can be found on
-                  the{" "}
-                  <Link
-                    href=""
-                    target="_blank"
-                    className="underline"
-                  >
-                    GitHub repository
-                  </Link>
-                  .
-                </p> */}
+                
               </CredenzaBody>
               <CredenzaFooter>
                 <Link
+                
                   href="https://www.apna.exchange"
+                  target="_blank"
+                  className={cn(buttonVariants({ variant: "default" })) }
+                >
+                  Visit
+                </Link>
+                <CredenzaClose asChild>
+                  <Button variant="outline">Close</Button>
+                </CredenzaClose>
+              </CredenzaFooter>
+            </CredenzaContent>
+          </Credenza>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex justify-center mx-5 bg-tiger rounded-lg lg:w-1/5 mt-6">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center   shadow-lg m-2">
+      <Image className="m-4" src={Gift} width={205} height={200} objectFit="contain" alt=""/>
+      <div className="px-6 py-10 flex flex-col justify-start">
+        <h5 className="text-white text-xl font-medium mb-5">Tiger Exchange</h5>
+        {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
+        
+{/*         
+        <button
+          className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+          type="button"
+          onClick={() => setShowModal(true)}
+        >
+          Demo ID <AiFillFire className="text-xl" />
+        </button> */}
+        <Credenza >
+            <CredenzaTrigger asChild>
+              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+            </CredenzaTrigger>
+            <CredenzaContent>
+              <CredenzaHeader>
+                <CredenzaTitle>Tiger ExChange</CredenzaTitle>
+                <CredenzaDescription>
+                  Demo Id For Tiger Exchange
+                </CredenzaDescription>
+              </CredenzaHeader>
+              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
+                <p>
+                  {/* This component is built using shadcn/ui&apos;s dialog and
+                  drawer component, which is built on top of Vaul. */}
+                  <span className="font-semibold">UserName:</span> Betkheloo{" "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+               
+                </p>
+                <p>
+                  <span className="font-semibold">PassWord:</span> Betkheloo{"  "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+                </p>
+                
+              </CredenzaBody>
+              <CredenzaFooter>
+                <Link
+                  href="https://mytiger247.com/login"
                   target="_blank"
                   className={cn(buttonVariants({ variant: "default" }))}
                 >
@@ -147,35 +190,92 @@ const TestModals = () => {
     </div>
   </div>
 
-  <div className="flex justify-center mx-5 bg-tiger ">
-    <div className="flex flex-row md:flex-col md:max-w-xl rounded-lg  shadow-lg m-2">
-      <Image src={Gift} width={200} height={200} objectFit="contain" alt=""/>
+
+  <div className="flex justify-center mx-5 rounded-lg bg-sky lg:w-1/5 mt-6">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
+      <Image className="m-4" src={sky} width={200} height={200} objectFit="contain" alt=""/>
       <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-white text-xl font-medium mb-2">Tiger Exchange</h5>
+        <h5 className="text-gray-900 text-xl font-medium mb-4">Sky Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
         
-        <button
+        {/* <button
           className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
       font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
           type="button"
           onClick={() => setShowModal(true)}
         >
           Demo ID <AiFillFire className="text-xl" />
-        </button>
+        </button> */}
+         <Credenza >
+            <CredenzaTrigger asChild>
+              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+            </CredenzaTrigger>
+            <CredenzaContent>
+              <CredenzaHeader>
+                <CredenzaTitle>Sky ExChange</CredenzaTitle>
+                <CredenzaDescription>
+                  Demo Id For Sky Exchange
+                </CredenzaDescription>
+              </CredenzaHeader>
+              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
+                <p>
+                  {/* This component is built using shadcn/ui&apos;s dialog and
+                  drawer component, which is built on top of Vaul. */}
+                  <span className="font-semibold">UserName:</span> Betkheloo{" "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+               
+                </p>
+                <p>
+                  <span className="font-semibold">PassWord:</span> Betkheloo{"  "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+                </p>
+                
+              </CredenzaBody>
+              <CredenzaFooter>
+                <Link
+                  href="https://www.skyexch.art/"
+                  target="_blank"
+                  className={cn(buttonVariants({ variant: "default" }))}
+                >
+                  Visit
+                </Link>
+                <CredenzaClose asChild>
+                  <Button variant="outline">Close</Button>
+                </CredenzaClose>
+              </CredenzaFooter>
+            </CredenzaContent>
+          </Credenza>
       </div>
     </div>
   </div>
 
 
-  <div className="flex justify-center mx-5  bg-sky">
-    <div className="flex flex-row md:flex-col md:max-w-xl rounded-lg shadow-lg m-2">
-      <Image src={sky} width={200} height={200} objectFit="contain" alt=""/>
-      <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-gray-900 text-xl font-medium mb-2">Sky Exchange</h5>
+
+  <div className="flex justify-center mx-5 bg-saf  rounded-lg lg:w-1/5 mt-6">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
+      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt=""/>
+      <div className="px-6 py-8 flex flex-col justify-start">
+        <h5 className="text-gray-900 text-xl font-medium mb-4">Saffron Exchange</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
-        
+{/*         
         <button
           className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
       font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
@@ -183,51 +283,139 @@ const TestModals = () => {
           onClick={() => setShowModal(true)}
         >
           Demo ID <AiFillFire className="text-xl" />
-        </button>
+        </button> */}
+        <Credenza >
+            <CredenzaTrigger asChild>
+              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+            </CredenzaTrigger>
+            <CredenzaContent>
+              <CredenzaHeader>
+                <CredenzaTitle>Saffron ExChange</CredenzaTitle>
+                <CredenzaDescription>
+                  Demo Id For Saffron Exchange
+                </CredenzaDescription>
+              </CredenzaHeader>
+              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
+                <p>
+                  {/* This component is built using shadcn/ui&apos;s dialog and
+                  drawer component, which is built on top of Vaul. */}
+                  <span className="font-semibold">UserName:</span> Betkheloo{" "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+               
+                </p>
+                <p>
+                  <span className="font-semibold">PassWord:</span> Betkheloo{"  "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+                </p>
+                
+              </CredenzaBody>
+              <CredenzaFooter>
+                <Link
+                  href="https://www.skyexch.art/"
+                  target="_blank"
+                  className={cn(buttonVariants({ variant: "default" }))}
+                >
+                  Visit
+                </Link>
+                <CredenzaClose asChild>
+                  <Button variant="outline">Close</Button>
+                </CredenzaClose>
+              </CredenzaFooter>
+            </CredenzaContent>
+          </Credenza>
       </div>
     </div>
   </div>
 
 
 
-  <div className="flex justify-center mx-5 bg-saf">
-    <div className="flex flex-row md:flex-col md:max-w-xl rounded-lg  shadow-lg m-2">
-      <Image src={saf} width={200} height={200} objectFit="contain" alt=""/>
+  <div className="flex justify-center mx-5 bg-ice rounded-lg lg:w-1/5 mt-6">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
+      <Image className="m-4" src={ice} width={200} height={200} objectFit="contain" alt=""/>
       <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-gray-900 text-xl font-medium mb-2">Saffron Exchange</h5>
+        <h5 className="text-white text-xl font-medium mb-4">Ice-Book 777</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
         
-        <button
+        {/* <button
           className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
       font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
           type="button"
           onClick={() => setShowModal(true)}
         >
           Demo ID <AiFillFire className="text-xl" />
-        </button>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div className="flex justify-center mx-5 bg-ice">
-    <div className="flex flex-row md:flex-col md:max-w-xl rounded-lg  shadow-lg m-2">
-      <Image src={ice} width={200} height={200} objectFit="contain" alt=""/>
-      <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-white text-xl font-medium mb-2">IceBook 777</h5>
-        {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
-        
-        
-        <button
-          className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+        </button> */}
+        <Credenza >
+            <CredenzaTrigger asChild>
+              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
       font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
-          type="button"
-          onClick={() => setShowModal(true)}
-        >
-          Demo ID <AiFillFire className="text-xl" />
-        </button>
+          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+            </CredenzaTrigger>
+            <CredenzaContent>
+              <CredenzaHeader>
+                <CredenzaTitle>IceBook 777</CredenzaTitle>
+                <CredenzaDescription>
+                  Demo Id For IceBook 777
+                </CredenzaDescription>
+              </CredenzaHeader>
+              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
+                <p>
+                  {/* This component is built using shadcn/ui&apos;s dialog and
+                  drawer component, which is built on top of Vaul. */}
+                  <span className="font-semibold">UserName:</span> Betkheloo{" "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+               
+                </p>
+                <p>
+                  <span className="font-semibold">PassWord:</span> Betkheloo{"  "}
+                  <button onClick={() => copyText("Betkheloo")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+                </p>
+                
+              </CredenzaBody>
+              <CredenzaFooter>
+                <Link
+                  href="https://www.skyexch.art/"
+                  target="_blank"
+                  className={cn(buttonVariants({ variant: "default" }))}
+                >
+                  Visit
+                </Link>
+                <CredenzaClose asChild>
+                  <Button variant="outline">Close</Button>
+                </CredenzaClose>
+              </CredenzaFooter>
+            </CredenzaContent>
+          </Credenza>
       </div>
     </div>
   </div>

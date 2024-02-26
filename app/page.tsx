@@ -1,3 +1,4 @@
+// "use client"
 import Link from "next/link"
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
@@ -11,12 +12,13 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Betkaroo - Online Betting Id Proivder",
+  title: "Betkheloo - Online Betting Id Proivder",
   description: "Betting ID",
-  keywords: "Betting id, ipl betting id, cricket betting id, sport betting, online casino"
+  keywords: "Betkheloo, Betting id, ipl betting id, cricket betting id, sport betting, online casino"
   // other metadata
 };
 
@@ -24,6 +26,7 @@ export default function Home() {
   
   return (
     <>
+      
       <ScrollUp />
       <Hero />
       <Features />
@@ -32,9 +35,9 @@ export default function Home() {
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
+      {/* <Pricing /> */}
       <Blog />
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }

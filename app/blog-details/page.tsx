@@ -19,8 +19,7 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  BetKheloo India's Most Trusted Betting ID Provider
                 </h2>
                 <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10">
                   <div className="flex flex-wrap items-center">
@@ -36,7 +35,7 @@ const BlogDetailsPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="mb-1 text-base font-medium text-body-color">
-                          By <span>Musharof Chy</span>
+                          By <span>Admin</span>
                         </span>
                       </div>
                     </div>
@@ -60,7 +59,7 @@ const BlogDetailsPage = () => {
                             <path d="M13.2637 3.3697H7.64754V2.58105C8.19721 2.43765 8.62738 1.91189 8.62738 1.31442C8.62738 0.597464 8.02992 0 7.28906 0C6.54821 0 5.95074 0.597464 5.95074 1.31442C5.95074 1.91189 6.35702 2.41376 6.93058 2.58105V3.3697H1.31442C0.597464 3.3697 0 3.96716 0 4.68412V13.2637C0 13.9807 0.597464 14.5781 1.31442 14.5781H13.2637C13.9807 14.5781 14.5781 13.9807 14.5781 13.2637V4.68412C14.5781 3.96716 13.9807 3.3697 13.2637 3.3697ZM6.6677 1.31442C6.6677 0.979841 6.93058 0.716957 7.28906 0.716957C7.62364 0.716957 7.91042 0.979841 7.91042 1.31442C7.91042 1.649 7.64754 1.91189 7.28906 1.91189C6.95448 1.91189 6.6677 1.6251 6.6677 1.31442ZM1.31442 4.08665H13.2637C13.5983 4.08665 13.8612 4.34954 13.8612 4.68412V6.45261H0.716957V4.68412C0.716957 4.34954 0.979841 4.08665 1.31442 4.08665ZM13.2637 13.8612H1.31442C0.979841 13.8612 0.716957 13.5983 0.716957 13.2637V7.16957H13.8612V13.2637C13.8612 13.5983 13.5983 13.8612 13.2637 13.8612Z" />
                           </svg>
                         </span>
-                        12 Jan 2024
+                        12 Feb 2024
                       </p>
                       <p className="mr-5 flex items-center text-base font-medium text-body-color">
                         <span className="mr-3">
@@ -98,15 +97,13 @@ const BlogDetailsPage = () => {
                       href="#0"
                       className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
                     >
-                      Design
+                      Betting Id
                     </a>
                   </div>
                 </div>
                 <div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                  Unlock Your Winning Potential: Explore the Ultimate Betting Experience with Bet Khelo! Dive into the world of online betting with Bet Khelo, your premier destination for betting IDs and thrilling gaming opportunities.
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded">
                     <div className="relative aspect-[97/60] w-full sm:aspect-[97/44]">
@@ -119,54 +116,44 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="mb-8 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
+                  From ICC Cricket betting to a wide array of casino classics, Bet Khelo offers endless excitement for every gambler. Join us as we uncover the secrets to success, providing expert tips and strategies to help you win big. Whether you're a seasoned bettor or a newcomer to the scene, Bet Khelo is your gateway to excitement and victory. 
                     <strong className="text-primary dark:text-white">
-                      malesuada
+                    Start winning today
                     </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                    Discover the Thrill: Bet Khelo, Your Premier Betting Destination! Immerse yourself in the world of online betting with Bet Khelo, the trusted platform serving over 100,000 users for the past 5 years.
                   </p>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
+                  Explore our extensive range of betting IDs, including Casino Betting ID and Online Casino ID, all tailored to deliver an unparalleled gaming experience. With a minimum betting ID value of just 100 Rupees and exclusive bonuses, Bet Khelo stands out from the crowd. Join us as we delve into the exciting realm of online betting, where every wager is a chance to win big. Start your journey with
                     <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
+                    Bet Khelo today!"
                     </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
+                    {/* donec enim diam. Varius sit amet mattis vulputate enim nulla
                     aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                    sed. */}
                   </p>
                   <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
-                    Digital marketplace for Ui/Ux designers.
+                    Best marketplace for Betting ID.
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  In today's digital landscape, online betting on cricket, casinos, and various other sports has emerged as a popular and convenient way to not only enjoy the thrill of gaming but also to earn money. With numerous online platforms vying for attention, the challenge lies in finding a trustworthy provider that ensures a secure and fair gaming experience.
                   </p>
                   <ul className="mb-10 list-inside list-disc text-body-color">
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                      More Than 10 Betting Exchange Patner
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                      Min ₹ 1000 Deposit
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                      Quick Withdraw
                     </li>
                     <li className="mb-2 text-base font-medium text-body-color sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
+                      24x7 Support Service
                     </li>
                   </ul>
                   <div className="relative z-10 mb-10 overflow-hidden rounded-md bg-primary bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-center text-base font-medium italic text-body-color">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                    "Welcome to the future of convenience and accessibility. With online services, the world is at your fingertips."
                     </p>
                     <span className="absolute left-0 top-0 z-[-1]">
                       <svg
@@ -310,9 +297,11 @@ const BlogDetailsPage = () => {
                     </span>
                   </div>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  Enter BetKheloo – a leading online betting ID provider renowned for its commitment to offering a comprehensive and enjoyable gambling environment. With a diverse range of betting options spanning across sports, casino games, and other popular events, BetKheloo caters to the preferences of every type of bettor.
+Whether you're a die-hard fan of football, basketball, cricket, or virtual sports, BetKheloo offers an extensive selection of markets for you to explore and bet on. Our casino game section is equally impressive, featuring a wide array of slots, table games, and live dealer options to elevate your gaming experience to new heights.
+What sets BetKheloo apart is its user-friendly interface, making it easy for even new users to navigate the platform effortlessly. We provide a step-by-step process to guide you through creating your betting ID within minutes, giving you the flexibility to add or remove betting options as per your preference.
+With BetKheloo, you can bet with confidence, knowing that you're in good hands. Join us today and embark on a thrilling journey filled with excitement and endless opportunities to win big!
+
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
@@ -320,9 +309,9 @@ const BlogDetailsPage = () => {
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
-                        <TagButton text="Design" />
-                        <TagButton text="Development" />
-                        <TagButton text="Info" />
+                        <TagButton text="Betting ID" />
+                        <TagButton text="IPL" />
+                        <TagButton text="Online Casino" />
                       </div>
                     </div>
                     <div className="mb-5">
