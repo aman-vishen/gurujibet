@@ -1,5 +1,5 @@
 import { Feature } from "@/types/feature";
-
+// import img1 from "public/images/bet/roullete.jpg"
 const featuresData: Feature[] = [
   {
     id: 1,
