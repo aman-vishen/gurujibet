@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 //These are Third party packages for smooth slideshow
+import Image from "next/image";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { ArrowLeftIcon,ArrowRightIcon } from '@heroicons/react/24/solid'
@@ -8,11 +9,11 @@ import { ArrowLeftIcon,ArrowRightIcon } from '@heroicons/react/24/solid'
 const Slideshow = () => {
 	//Array of Images
 	const images = [
-		"images/hero/image3.jpg",
-		"images/hero/image2.jpg",
-		"images/hero/image4.jpg",
-		"images/hero/image1.jpg",
-		"images/hero/image1.jpg",
+		"/images/hero/image3.jpg",
+		"/images/hero/image2.jpg",
+		"/images/hero/image4.jpg",
+		"/images/hero/image1.jpg",
+		"/images/hero/image1.jpg",
 	];
 
 	//These are custom properties for zoom effect while slide-show
@@ -38,10 +39,12 @@ const Slideshow = () => {
 				{images.map((each, index) => (
 					<div key={index} className="flex   justify-center md:items-center items-start w-screen h-screen relative">
 						<div className="bottom-0 left-0 right-0 top-0 h-full w-full  bg-fixed bg-black opacity-90">
-						<img
+						<Image
 							className="w-screen object-cover w-full h-full bg-[linear-gradient(0deg,rgba(0,0,0,0.75)_6.82%,rgba(0,0,0,0.00)_81.44%)]"
 							src={each}
-                           
+							alt="Betkheloo"
+							fill
+					
 						/>
 						 </div>
 						<div className="flex  flex-col text-overlay absolute  w-screen h-screen justify-center items-center  "
