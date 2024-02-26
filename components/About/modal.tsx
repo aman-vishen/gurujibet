@@ -365,7 +365,7 @@ const TestModals = () => {
             <CredenzaTrigger asChild>
               <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
       font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
-          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+          type="button">Demo ID <AiFillFire className="text-xl" /></Button>
             </CredenzaTrigger>
             <CredenzaContent>
               <CredenzaHeader>

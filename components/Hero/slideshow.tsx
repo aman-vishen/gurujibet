@@ -50,7 +50,7 @@ const Slideshow = () => {
 						<div className="flex  flex-col text-overlay absolute  w-screen h-screen justify-center items-center  "
 						>
 							
-						<h1 className="opacity-100 bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-100	 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1>
+						<h1 className="opacity-100 bg-clip-text text-transparent bg-gradient-to-r from-amber-500 to-pink-100	 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Kheloo</h1>
                         {/* <h1 className="absolute md:top-60 top-24 inset-x-1/4 text-center z-10 md:text-6xl text-4xl bold text-white mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">Bet-Karoo</h1> */}
                         {/* <p className="absolute md:top-80 top-40 inset-x-1/4 text-center z-10 md:text-2xl text-xl bold text-white dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">"India's Most Trusted Betting Id Provider"</p> */}
                         <p className="bg-clip-padding p-6 bg-zinc-900 rounded-xl bg-opacity-50 border-1 border-violet-300   my-2 text-white dark:text-white text-3xl font-bold  bg-gradient-to-r from-Slate-900 to-amber-500  text-base !leading-tight text-body-color sm:text-lg md:text-4xl">India's Most Trusted Betting Id Provider</p>
