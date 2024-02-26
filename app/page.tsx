@@ -16,9 +16,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Betkheloo - Online Betting Id Proivder",
+  title: "Betkheloo - Online Betting Id Proivder | Online Casino ID | Cricket Betting ID | IPL Betting id",
   description: "Betting ID",
-  keywords: "Betkheloo, Betting id, ipl betting id, cricket betting id, sport betting, online casino"
+  keywords: "Betkheloo, Betting id, ipl betting id, cricket betting id, sport betting, Online Casino ID"
   // other metadata
 };
 
