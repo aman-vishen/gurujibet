@@ -4,12 +4,17 @@ const nextConfig = {
     serverActions: true,
 },
   images: {
+    formats:['image/webp'],
     domains: ["localhost"],
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "cdn.sanity.io",
+        hostname: "**",
         port: "",
+      },
+      {
+        protocol: "http",
+        hostname: "www.betkheloo.com",
       },
     ],
   },
