@@ -9,6 +9,8 @@ import "../styles/index.css";
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { Providers } from "./providers";
 
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({
@@ -18,11 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <link rel="icon" href="/favicon.png" sizes="any" />
+
       {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
+      {/* <head>
+      </head> */}
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
