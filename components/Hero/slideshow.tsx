@@ -39,11 +39,11 @@ const Slideshow = () => {
 				{images.map((each, index) => (
 					<div key={index} className="flex   justify-center md:items-center items-start w-screen h-screen relative">
 						<div className="bottom-0 left-0 right-0 top-0 h-full w-full  bg-fixed bg-black opacity-90">
-						<Image
+						<img
 							className="w-screen object-cover w-full h-full bg-[linear-gradient(0deg,rgba(0,0,0,0.75)_6.82%,rgba(0,0,0,0.00)_81.44%)]"
 							src={each}
 							alt="Betkheloo"
-							fill
+						
 					
 						/>
 						 </div>
