@@ -26,7 +26,7 @@ export default function RootLayout({
       <head />
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-      <GoogleAnalytics gaId="G-8B0P8MVWPL" />
+      <GoogleAnalytics gaId="G-WZT0ZDZHJQ" />
         
         <Providers>
           <Header />
