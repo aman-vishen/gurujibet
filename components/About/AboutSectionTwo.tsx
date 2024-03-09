@@ -74,7 +74,7 @@ const AboutSectionTwo = () => {
           </div>
         </div>
         <div className="mb-6 flex items-center py-10 md:py-20  justify-center md:gap-20 gap-10 sm:gap-8 max-sm:px-0 px-5">
-        <section>
+        {/* <section>
             <div className='home__cars-wrapper'>
             
             <TestModals />
@@ -83,11 +83,8 @@ const AboutSectionTwo = () => {
             
             </div>
 
-            {/* <ShowMore
-              pageNumber={(searchParams.limit || 10) / 10}
-              isNext={(searchParams.limit || 10) > allCars.length}
-            /> */}
-          </section>
+        
+          </section> */}
         </div>
 
 

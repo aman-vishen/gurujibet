@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { AiFillFire } from "react-icons/ai";
 import Image from "next/image";
-import Trophy from "public/apna.png";
-import Gift from "public/tiger.png";
-import sky from "public/sky_header_logo.png";
-import ice from "public/icebook.png";
+import Trophy from "public/images/brands/fairbet.webp";
+import Gift from "public/images/brands/all_paanel.png";
+import sky from "public/images/brands/casino exchange.png";
+import ice from "public/images/brands/teen patti.png";
 import saf from "public/safron.png";
 import Link from "next/link"
 import copy from "public/copy.svg";
@@ -43,7 +43,7 @@ const TestModals = () => {
     <div className="flex flex-col md:flex-col md:max-w-xl items-center  shadow-lg m-2">
       <Image className="m-4" src={Trophy} width={205} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start ">
-        <h5 className="text-gray-900 text-xl font-medium mb-5">Apna Exchange</h5>
+        <h5 className="text-gray-900 text-xl font-medium mb-5">FairBet</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
         
@@ -63,9 +63,9 @@ const TestModals = () => {
             </CredenzaTrigger>
             <CredenzaContent>
               <CredenzaHeader>
-                <CredenzaTitle>Apna Exchange</CredenzaTitle>
+                <CredenzaTitle>FairBet</CredenzaTitle>
                 <CredenzaDescription>
-                  Demo Id For Apna Exchange
+                  Demo Id For FairBet
                 </CredenzaDescription>
               </CredenzaHeader>
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
@@ -117,9 +117,9 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-tiger rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center   shadow-lg m-2">
-      <Image className="m-4" src={Gift} width={205} height={200} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={Gift} width={130} height={150} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-white text-xl font-medium mb-5">Tiger Exchange</h5>
+        <h5 className="text-white text-xl font-medium mb-5">ALL PAANEL</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
 {/*         
@@ -139,9 +139,9 @@ const TestModals = () => {
             </CredenzaTrigger>
             <CredenzaContent>
               <CredenzaHeader>
-                <CredenzaTitle>Tiger ExChange</CredenzaTitle>
+                <CredenzaTitle>ALL PAANEL</CredenzaTitle>
                 <CredenzaDescription>
-                  Demo Id For Tiger Exchange
+                  Demo Id For ALL PAANEL
                 </CredenzaDescription>
               </CredenzaHeader>
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
@@ -193,20 +193,10 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 rounded-lg bg-sky lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={sky} width={200} height={200} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={sky} width={110} height={100} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-gray-900 text-xl font-medium mb-4">Sky Exchange</h5>
-        {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
-        
-        
-        {/* <button
-          className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
-      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
-          type="button"
-          onClick={() => setShowModal(true)}
-        >
-          Demo ID <AiFillFire className="text-xl" />
-        </button> */}
+        <h5 className="text-gray-900 text-xl font-medium mb-4">Casino Exchange</h5>
+ 
          <Credenza >
             <CredenzaTrigger asChild>
               <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
@@ -215,9 +205,9 @@ const TestModals = () => {
             </CredenzaTrigger>
             <CredenzaContent>
               <CredenzaHeader>
-                <CredenzaTitle>Sky ExChange</CredenzaTitle>
+                <CredenzaTitle>Casino Exchange</CredenzaTitle>
                 <CredenzaDescription>
-                  Demo Id For Sky Exchange
+                  Demo Id For Casino Exchange
                 </CredenzaDescription>
               </CredenzaHeader>
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
@@ -268,22 +258,12 @@ const TestModals = () => {
 
 
 
-  <div className="flex justify-center mx-5 bg-saf  rounded-lg lg:w-1/5 mt-6">
+  {/* <div className="flex justify-center mx-5 bg-saf  rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
       <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-8 flex flex-col justify-start">
         <h5 className="text-gray-900 text-xl font-medium mb-4">Saffron Exchange</h5>
-        {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
-        
-{/*         
-        <button
-          className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
-      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
-          type="button"
-          onClick={() => setShowModal(true)}
-        >
-          Demo ID <AiFillFire className="text-xl" />
-        </button> */}
+
         <Credenza >
             <CredenzaTrigger asChild>
               <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
@@ -299,8 +279,7 @@ const TestModals = () => {
               </CredenzaHeader>
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
                 <p>
-                  {/* This component is built using shadcn/ui&apos;s dialog and
-                  drawer component, which is built on top of Vaul. */}
+ 
                   <span className="font-semibold">UserName:</span> Betkheloo{" "}
                   <button onClick={() => copyText("Betkheloo")}><Image
                   width={20}
@@ -341,15 +320,15 @@ const TestModals = () => {
           </Credenza>
       </div>
     </div>
-  </div>
+  </div> */}
 
 
 
   <div className="flex justify-center mx-5 bg-ice rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={ice} width={200} height={200} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={ice} width={80} height={110} objectFit="contain" alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-white text-xl font-medium mb-4">Ice-Book 777</h5>
+        <h5 className="text-white text-xl font-medium mb-4">Teen Patti Exc</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
         
         
@@ -369,9 +348,9 @@ const TestModals = () => {
             </CredenzaTrigger>
             <CredenzaContent>
               <CredenzaHeader>
-                <CredenzaTitle>IceBook 777</CredenzaTitle>
+                <CredenzaTitle>Teen patti</CredenzaTitle>
                 <CredenzaDescription>
-                  Demo Id For IceBook 777
+                  Demo Id For Teen patti
                 </CredenzaDescription>
               </CredenzaHeader>
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">

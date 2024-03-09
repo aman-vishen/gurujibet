@@ -166,12 +166,21 @@ const Header = () => {
                   Sign In
                 </Link> */}
                 <Link
-                  href="https://web.whatsapp.com/" 
+                  href="https://api.whatsapp.com/send?phone=918800626798" 
+                  target="_blank"
+                  className="m-2"
+                >
+                  <Image src="/customer-service.png"  width={200} height={60} alt="online betting id"/>
+                
+                </Link>
+                <Link
+                  href="https://api.whatsapp.com/send?phone=918800626798" 
                   target="_blank"
                   className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
                 >
                   Whatsapp
                 </Link>
+                
                 <div>
                   <ThemeToggler />
                 </div>

@@ -53,12 +53,12 @@ const Brands = () => {
     <section className="pt-16">
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
-        <SectionTitle
+        {/* <SectionTitle
           title="Our Betting Id Patners"
           paragraph="Below is the list of all the verified partners. All of the sites listed below are tested for fraud and are 100% safe to use. The list contains some of the online betting id provider of India."
           center
           mb="80px"
-        />
+        /> */}
           <div className="w-full px-4">
             {/* <div
               className="wow fadeInUp bg-gray-light dark:bg-gray-dark flex flex-wrap items-center justify-center rounded-sm px-8 py-8 sm:px-10 md:px-[50px] md:py-[40px] xl:p-[50px] 2xl:px-[70px] 2xl:py-[60px]"
