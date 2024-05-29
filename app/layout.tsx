@@ -37,8 +37,8 @@ export default function RootLayout({
           {children}
           <Footer />
           <ScrollToTop />
-          <FloatingWhatsApp phoneNumber="8800626798"
-        accountName="Betkheloo"
+          <FloatingWhatsApp phoneNumber="8800659805"
+        accountName="Guruji Bet"
         allowEsc
         avatar="/images/logo/logo.png"
         allowClickAway={false}

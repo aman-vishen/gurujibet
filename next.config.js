@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         protocol: "http",
-        hostname: "www.betkheloo.com",
+        hostname: "www.gurujibet.com",
       },
     ],
   },

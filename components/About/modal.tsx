@@ -34,11 +34,80 @@ const TestModals = () => {
 
   return (
 
+    
       
 
 
     <div className="flex flex-wrap justify-center items-center md:flex-row  mt-40 ">
       {/* <div className="container m-auto p-4"> */}
+
+      <div className="flex justify-center mx-5 bg-ice  rounded-lg lg:w-1/5 mt-6">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
+      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
+      <div className="px-6 py-10 flex flex-col justify-start">
+        <h5 className="text-white text-xl font-medium mb-4">Diamond Exchange</h5>
+
+        <Credenza >
+            <CredenzaTrigger asChild>
+              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+            </CredenzaTrigger>
+            <CredenzaContent>
+              <CredenzaHeader>
+                <CredenzaTitle>Diamond Exchange</CredenzaTitle>
+                <CredenzaDescription>
+                  Demo Id For Diamond Exchange
+                </CredenzaDescription>
+              </CredenzaHeader>
+              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
+                <p>
+ 
+                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <button onClick={() => copyText("Guruji bet")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+               
+                </p>
+                <p>
+                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <button onClick={() => copyText("Guruji bet")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+                </p>
+                
+              </CredenzaBody>
+              <CredenzaFooter>
+                <Link
+                  href="https://www.skyexch.art/"
+                  target="_blank"
+                  className={cn(buttonVariants({ variant: "default" }))}
+                >
+                  Visit
+                </Link>
+                <CredenzaClose asChild>
+                  <Button variant="outline">Close</Button>
+                </CredenzaClose>
+              </CredenzaFooter>
+            </CredenzaContent>
+          </Credenza>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <div className="flex justify-center  mx-5 bg-apna rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center  shadow-lg m-2">
       <Image className="m-4" src={Trophy} width={205} height={200} objectFit="contain" alt="online betting id"/>
@@ -114,6 +183,88 @@ const TestModals = () => {
       </div>
     </div>
   </div>
+
+
+  <div className="flex justify-center mx-5 bg-ice  rounded-lg lg:w-1/5 mt-6">
+    <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
+      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
+      <div className="px-6 py-10 flex flex-col justify-start">
+        <h5 className="text-white text-xl font-medium mb-4">Sky Exchange</h5>
+
+        <Credenza >
+            <CredenzaTrigger asChild>
+              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
+      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
+          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
+            </CredenzaTrigger>
+            <CredenzaContent>
+              <CredenzaHeader>
+                <CredenzaTitle>Sky Exchange</CredenzaTitle>
+                <CredenzaDescription>
+                  Demo Id For Sky Exchange
+                </CredenzaDescription>
+              </CredenzaHeader>
+              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
+                <p>
+ 
+                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <button onClick={() => copyText("Guruji bet")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+               
+                </p>
+                <p>
+                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <button onClick={() => copyText("Guruji bet")}><Image
+                  width={20}
+                  height={20}
+                src={copy}
+                alt="Bet Kheloo"
+                
+                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+              /></button>
+                </p>
+                
+              </CredenzaBody>
+              <CredenzaFooter>
+                <Link
+                  href="https://www.skyexch.art/"
+                  target="_blank"
+                  className={cn(buttonVariants({ variant: "default" }))}
+                >
+                  Visit
+                </Link>
+                <CredenzaClose asChild>
+                  <Button variant="outline">Close</Button>
+                </CredenzaClose>
+              </CredenzaFooter>
+            </CredenzaContent>
+          </Credenza>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <div className="flex justify-center mx-5 bg-tiger rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center   shadow-lg m-2">
@@ -258,69 +409,7 @@ const TestModals = () => {
 
 
 
-  <div className="flex justify-center mx-5 bg-ice  rounded-lg lg:w-1/5 mt-6">
-    <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
-      <div className="px-6 py-10 flex flex-col justify-start">
-        <h5 className="text-white text-xl font-medium mb-4">Diamond Exchange</h5>
-
-        <Credenza >
-            <CredenzaTrigger asChild>
-              <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
-      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
-          type="button">Demo ID<AiFillFire className="text-xl" /></Button>
-            </CredenzaTrigger>
-            <CredenzaContent>
-              <CredenzaHeader>
-                <CredenzaTitle>Diamond Exchange</CredenzaTitle>
-                <CredenzaDescription>
-                  Demo Id For Diamond Exchange
-                </CredenzaDescription>
-              </CredenzaHeader>
-              <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
-                <p>
  
-                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
-                  <button onClick={() => copyText("Guruji bet")}><Image
-                  width={20}
-                  height={20}
-                src={copy}
-                alt="Bet Kheloo"
-                
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              /></button>
-               
-                </p>
-                <p>
-                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
-                  <button onClick={() => copyText("Guruji bet")}><Image
-                  width={20}
-                  height={20}
-                src={copy}
-                alt="Bet Kheloo"
-                
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
-              /></button>
-                </p>
-                
-              </CredenzaBody>
-              <CredenzaFooter>
-                <Link
-                  href="https://www.skyexch.art/"
-                  target="_blank"
-                  className={cn(buttonVariants({ variant: "default" }))}
-                >
-                  Visit
-                </Link>
-                <CredenzaClose asChild>
-                  <Button variant="outline">Close</Button>
-                </CredenzaClose>
-              </CredenzaFooter>
-            </CredenzaContent>
-          </Credenza>
-      </div>
-    </div>
-  </div>
 
 
 
