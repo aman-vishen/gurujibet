@@ -43,7 +43,7 @@ const TestModals = () => {
 
       <div className="flex justify-center mx-5 bg-ice  rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={saf} width={200} height={200}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-4">Diamond Exchange</h5>
 
@@ -110,7 +110,7 @@ const TestModals = () => {
 
   <div className="flex justify-center  mx-5 bg-apna rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center  shadow-lg m-2">
-      <Image className="m-4" src={Trophy} width={205} height={200} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={Trophy} width={205} height={200}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start ">
         <h5 className="text-gray-900 text-xl font-medium mb-5">FairBet</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -187,7 +187,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-ice  rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={saf} width={200} height={200} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={saf} width={200} height={200}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-4">Sky Exchange</h5>
 
@@ -268,7 +268,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-tiger rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center   shadow-lg m-2">
-      <Image className="m-4" src={Gift} width={130} height={150} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={Gift} width={130} height={150}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-5">ALL PAANEL</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -344,7 +344,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 rounded-lg bg-sky lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={sky} width={110} height={100} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={sky} width={110} height={100}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-gray-900 text-xl font-medium mb-4">Casino Exchange</h5>
  
@@ -415,7 +415,7 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 bg-ice rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={ice} width={80} height={110} objectFit="contain" alt="online betting id"/>
+      <Image className="m-4" src={ice} width={80} height={110}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-4">Teen Patti Exc</h5>
         {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
@@ -562,7 +562,7 @@ const TestModals = () => {
       </div> */}
       {showModal ? (
         <div className="mt-10 flex justify-center items-center flex-col w-72 rounded-lg shadow-xl h-auto p-2">
-          <Image src={Trophy} width={100} height={100} objectFit="contain" alt=""/>
+          <Image src={Trophy} width={100} height={100}  alt="Guruji bet"/>
           <h2 className="text-base mt-2 mx-4 text-gray-400 font-semibold text-center">
             May your life be filled with success and achievements.
             Congratulations!
@@ -579,7 +579,7 @@ const TestModals = () => {
       {/* second modal */}
       {showSecondModal ? (
         <div className="mt-10 flex justify-center items-center flex-col w-1/2 rounded-lg shadow-xl h-auto p-2">
-          <Image src={Gift} width={100} height={100} objectFit="contain" alt=""/>
+          <Image src={Gift} width={100} height={100}  alt="guruji bet"/>
           <h2 className="text-base mt-2 text-gray-400 font-semibold text-center mx-4">
             Hurry! Your USD 50,00 Gift Voucher is about to expire! Shop now the
             latest Summer-Trends.
