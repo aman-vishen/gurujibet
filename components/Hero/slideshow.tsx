@@ -10,10 +10,11 @@ import { ArrowLeftIcon,ArrowRightIcon } from '@heroicons/react/24/solid'
 const Slideshow = () => {
 	//Array of Images
 	const images = [
+		"images/hero/worldcupt20.jpg",
 		"images/hero/image3.jpg",
 		"images/hero/image2.jpg",
 		"images/hero/image4.jpg",
-		// "images/hero/image1.jpg",
+		,
 		// "images/hero/image1.jpg",
 	];
 
