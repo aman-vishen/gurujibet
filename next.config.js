@@ -3,14 +3,21 @@ const nextConfig = {
 //   experimental: {
 //     serverActions: true,
 // },
-module: {
-  rules: [
-    {
-      test: /\.css$/i,
-      use: ["style-loader", "css-loader"]
-    }
-  ],
-},
+
+module: { 
+  rules: [ 
+      { 
+          test: /\.css$/, 
+          use: ['style-loader', 'css-loader'], 
+      }, 
+      { 
+          test: /\.scss$/, 
+          use: ['style-loader',  
+          'css-loader', 'sass-loader'], 
+      }, 
+  ], 
+}, 
+
   images: {
     formats:['image/webp'],
     domains: ["localhost"],

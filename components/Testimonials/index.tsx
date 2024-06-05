@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "user",
     content:
       "Varity of options to choose from poker to blackjack",
-    image: "/images/testimonials/auth-02.png",
+    image: "/images/testimonials/author-02.png",
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "user",
     content:
       "Been using Bet kheloo from last 1 year. Quick Response instant deposit and withdrawal",
-    image: "/images/testimonials/auth-03.png",
+    image: "/images/testimonials/author-03.png",
     star: 5,
   },
 ];
