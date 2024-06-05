@@ -3,6 +3,14 @@ const nextConfig = {
 //   experimental: {
 //     serverActions: true,
 // },
+module: {
+  rules: [
+    {
+      test: /\.css$/i,
+      use: ["style-loader", "css-loader"]
+    }
+  ],
+},
   images: {
     formats:['image/webp'],
     domains: ["localhost"],
