@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   // other metadata
 };
 
-const BlogDetailsPage1 = () => {
+const BlogDetailsPage = () => {
   return (
     <>
       <section className="pb-[120px] pt-[150px]">
@@ -334,4 +334,4 @@ With Guruji bet, you can bet with confidence, knowing that you're in good hands.
   );
 };
 
-export default BlogDetailsPage1;
+export default BlogDetailsPage;
