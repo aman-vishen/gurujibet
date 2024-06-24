@@ -38,7 +38,7 @@ export default function RootLayout({
           <Footer />
           <ScrollToTop />
           <FloatingWhatsApp phoneNumber="8800659805"
-        accountName="Guruji Bet"
+        accountName="Mahadevbook online gaming"
         allowEsc
         avatar="/images/logo/logo.png"
         allowClickAway={false}

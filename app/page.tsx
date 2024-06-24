@@ -16,9 +16,9 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Guruji Bet - Online Betting | Online Casino ID | Cricket Betting ID",
+  title: "Mahadevbook online gaming - Online Betting | Online Casino ID | Cricket Betting ID",
   description: "IPL Betting Id provider",
-  keywords: "Guruji Bet, Betting id, ipl betting id, cricket betting id, sport betting, Online Casino ID"
+  keywords: "Mahadevbook online gaming, Betting id, ipl betting id, cricket betting id, sport betting, Online Casino ID"
   // other metadata
 };
 
