@@ -63,7 +63,7 @@ const TestModals = () => {
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
                 <p>
  
-                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <span className="font-semibold">UserName:</span> demo02140{" "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -75,7 +75,7 @@ const TestModals = () => {
                
                 </p>
                 <p>
-                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <span className="font-semibold">PassWord:</span> Abcd1234{"  "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -141,7 +141,7 @@ const TestModals = () => {
                 <p>
                   {/* This component is built using shadcn/ui&apos;s dialog and
                   drawer component, which is built on top of Vaul. */}
-                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <span className="font-semibold">UserName:</span> demo0201{" "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -153,7 +153,7 @@ const TestModals = () => {
                
                 </p>
                 <p>
-                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <span className="font-semibold">PassWord:</span> Abcd1234{"  "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -207,7 +207,7 @@ const TestModals = () => {
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
                 <p>
  
-                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <span className="font-semibold">UserName:</span> Demo04140{" "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -219,7 +219,7 @@ const TestModals = () => {
                
                 </p>
                 <p>
-                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <span className="font-semibold">PassWord:</span> Abcd1234{"  "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -299,7 +299,7 @@ const TestModals = () => {
                 <p>
                   {/* This component is built using shadcn/ui&apos;s dialog and
                   drawer component, which is built on top of Vaul. */}
-                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <span className="font-semibold">UserName:</span> demo02130{" "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -311,7 +311,7 @@ const TestModals = () => {
                
                 </p>
                 <p>
-                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <span className="font-semibold">PassWord:</span> Abcd1234{"  "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -365,7 +365,7 @@ const TestModals = () => {
                 <p>
                   {/* This component is built using shadcn/ui&apos;s dialog and
                   drawer component, which is built on top of Vaul. */}
-                  <span className="font-semibold">UserName:</span> Guruji bet{" "}
+                  <span className="font-semibold">UserName:</span> demo02130{" "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
@@ -377,7 +377,7 @@ const TestModals = () => {
                
                 </p>
                 <p>
-                  <span className="font-semibold">PassWord:</span> Guruji bet{"  "}
+                  <span className="font-semibold">PassWord:</span> Abcd1234{"  "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
                   height={20}
