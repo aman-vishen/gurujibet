@@ -89,7 +89,7 @@ const TestModals = () => {
               </CredenzaBody>
               <CredenzaFooter>
                 <Link
-                  href="https://www.skyexch.art/"
+                  href="https://www.Diamondexch.com"
                   target="_blank"
                   className={cn(buttonVariants({ variant: "default" }))}
                 >
@@ -168,7 +168,7 @@ const TestModals = () => {
               <CredenzaFooter>
                 <Link
                 
-                  href="https://www.apna.exchange"
+                  href="https://www.Fairbet7.com"
                   target="_blank"
                   className={cn(buttonVariants({ variant: "default" })) }
                 >
@@ -325,7 +325,7 @@ const TestModals = () => {
               </CredenzaBody>
               <CredenzaFooter>
                 <Link
-                  href="https://mytiger247.com/login"
+                  href="https://allpanelexch.com"
                   target="_blank"
                   className={cn(buttonVariants({ variant: "default" }))}
                 >
