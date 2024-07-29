@@ -57,7 +57,7 @@ const Slideshow = () => {
                         {/* <p className="absolute md:top-80 top-40 inset-x-1/4 text-center z-10 md:text-2xl text-xl bold text-white dark:text-body-color-dark mb-12 text-base !leading-relaxed text-body-color sm:text-lg md:text-xl">"India's Most Trusted Betting Id Provider"</p> */}
                         <p className="bg-clip-padding p-6 bg-zinc-900 rounded-xl bg-opacity-50 border-1 border-violet-300   my-2 text-white dark:text-white text-3xl font-bold  bg-gradient-to-r from-Slate-900 to-amber-500  text-base !leading-tight text-body-color sm:text-lg md:text-4xl">India's First betting id provider</p>
                         <Link
-                        href="https://api.whatsapp.com/send?phone=918800626798"
+                        href="https://api.whatsapp.com/send?phone=918336000089"
 						target="blank"
                         className="border-solid border-2 border-white-600 my-2  rounded-xl  inline-block rounded-sm bg-whatsapp  text-white  px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
 						// className="absolute inline-block rounded-sm bg-black md:top-200 top-800 text-white mb-200 px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"

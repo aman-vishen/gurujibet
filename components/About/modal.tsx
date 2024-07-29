@@ -344,8 +344,8 @@ const TestModals = () => {
 
   <div className="flex justify-center mx-5 rounded-lg bg-sky lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
-      <Image className="m-4" src={sky} width={110} height={100}  alt="online betting id"/>
-      <div className="px-6 py-10 flex flex-col justify-start">
+      <Image className="m-4" src={sky} width={140} height={100}  alt="online betting id"/>
+      <div className="px-6 py-6 flex flex-col justify-start">
         <h5 className="text-gray-900 text-xl font-medium mb-4">Casino Exchange</h5>
  
          <Credenza >
