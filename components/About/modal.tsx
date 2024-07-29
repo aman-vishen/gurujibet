@@ -411,24 +411,14 @@ const TestModals = () => {
 
  
 
-
+{/* 
 
   <div className="flex justify-center mx-5 bg-ice rounded-lg lg:w-1/5 mt-6">
     <div className="flex flex-col md:flex-col md:max-w-xl items-center shadow-lg m-2">
       <Image className="m-4" src={ice} width={80} height={110}  alt="online betting id"/>
       <div className="px-6 py-10 flex flex-col justify-start">
         <h5 className="text-white text-xl font-medium mb-4">Teen Patti Exc</h5>
-        {/* <h5 className="text-gray-500 text-md font-extralight mb-2">Artist</h5>  */}
-        
-        
-        {/* <button
-          className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
-      font-bold px-6 h-12 rounded-md shadow hover:shadow-lg outline-none focus:outline-none"
-          type="button"
-          onClick={() => setShowModal(true)}
-        >
-          Demo ID <AiFillFire className="text-xl" />
-        </button> */}
+
         <Credenza >
             <CredenzaTrigger asChild>
               <Button className="bg-blue-600 text-white active:bg-black hover:bg-black flex justify-center items-center gap-2
@@ -444,8 +434,7 @@ const TestModals = () => {
               </CredenzaHeader>
               <CredenzaBody className="space-y-4 pb-4 text-center text-sm sm:pb-0 sm:text-left">
                 <p>
-                  {/* This component is built using shadcn/ui&apos;s dialog and
-                  drawer component, which is built on top of Vaul. */}
+       
                   <span className="font-semibold">UserName:</span> Guruji bet{" "}
                   <button onClick={() => copyText("Guruji bet")}><Image
                   width={20}
@@ -486,7 +475,7 @@ const TestModals = () => {
           </Credenza>
       </div>
     </div>
-  </div>
+  </div> */}
 
 
 
