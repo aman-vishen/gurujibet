@@ -37,7 +37,7 @@ export default function RootLayout({
           {children}
           <Footer />
           <ScrollToTop />
-          <FloatingWhatsApp phoneNumber="8336000089"
+          <FloatingWhatsApp phoneNumber="918336000089"
         accountName="Mahadevbook online gaming"
         allowEsc
         avatar="/images/logo/logo.png"
